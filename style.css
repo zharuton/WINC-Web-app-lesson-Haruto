@@ -50,6 +50,7 @@ body {
 
 body.dark-mode {
     background: #0b0a08;
+    color: #fff;
 }
 
 .card {
