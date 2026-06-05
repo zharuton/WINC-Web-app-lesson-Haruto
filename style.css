@@ -1,0 +1,90 @@
+main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #faf7f1;
+    border-right: 1px solid #e8e3d8;
+}
+
+#side.dark-mode {
+    background: #05080e;
+    border-right: 1px solid #171c27;
+}
+
+#introduction {
+    margin: 40px auto;
+}
+
+.divider {
+    width: 40px;
+    height: 1px;
+    background: #c8a77d;
+}
+
+.divider.dark-mode {
+    background: #375882;
+}
+
+#social-links {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+}
+
+.iine {
+    appearance: none;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    background: #f4f5f7;
+}
+
+body.dark-mode {
+    background: #0b0a08;
+}
+
+.card {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 56px 1fr auto;
+    border-radius: 5px;
+    outline: 1px solid gray;
+    position: relative;
+}
+
+.card-icon {
+    margin: auto;
+}
+
+.detail {
+    position: absolute;
+    right: 3%;
+    bottom: 7%;
+}
+
+#hobbies-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hobbies-main {
+    outline: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+#img-btn {
+    appearance: none;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+}

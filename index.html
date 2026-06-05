@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shioya Haruto | Identity Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button type = "button" id = "btn2" class = "iine">
+            dark-mode</button>
+    </header>
+    <main>
+        <aside id = "side">
+            <button id = "img-btn">
+                <img  id = "icon" src="icon.jpeg" alt="lineのアイコンです" width="256px" height="256px">
+            </button>
+            <h1 id = "user-name">塩谷 悠人</h1>
+            <p id = "role">好奇心旺盛なフロントエンド学習者</p>
+            <div class = "divider"></div>
+            <p id = "introduction">
+                こんにちは！塩谷　悠人です。<br>大学で情報の勉強をしながら、
+                Web制作の奥深さにハマっています。最近はReactに興味があります。
+            </p>
+            <ul id = "social-links">
+                <li><a href="https://github.com/zharuton"target="_blank">GitHub</a></li>
+                <li><a href="example.com">X</a></li>
+                <li><a href="example.com">Blog</a></li>
+                <button type = "button" id = "btn" class = "iine"><img src="iine.png" alt="いいね" width="16px" height="16px"></button>
+                <p id = "text">0</p>
+            </ul>
+            
+        </aside>
+        
+        <section class = "main-contents">
+            <article class = "card" id = "skills">
+                <div class = "card-icon">👤</div>
+                <div class = "card-body">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML / CSS (学習中)</li>
+                        <li>Python</li>
+                        <li>VS Code / Git</li>
+                    </ul>
+                    
+                </div>
+                <a class = "detail" href="example.com">詳しく見る →</a>
+            </article>
+
+            <article class = "card" id = "hobbies">
+                <div class = "card-icon">♠︎</div>
+                <div class = "card-body">
+                    <h2>Hobbies</h2>
+                    <div id = "hobbies-card">
+                        <article class = "hobbies-main">
+                            <h3>旅行</h3>
+                            <p>普段とは違った経験をできることが好きです。</p>
+                        </article>
+                        <article class = "hobbies-main">
+                            <h3>ゲーム</h3>
+                            <p>FPSとか協力ゲーとか色々なものをやっています。</p>
+                        </article>
+                        <article class = "hobbies-main">
+                            <h3>サークル</h3>
+                            <p>木曜日以外はサークルに行っています。時間が足りないです。</p>
+                        </article>
+                    </div>
+                </div>
+            </article>
+
+            <article class = "card" id = "foods">
+                <div class = "card-icon">🍔</div>
+                <div class = "card-body">
+                    <h2>Foods</h2>
+                    <ul>
+                        <li>サムギョプサル</li>
+                        <li>ちやんこ鍋</li>
+                        <li>寿司</li>
+                    </ul>
+                </div>
+                <a class = "detail" href="example.com">詳しく見る →</a>
+            </article>
+
+            <article class = "card" id = "mail">
+                <div class = "card-icon">✉️</div>
+                <div class = "card-body">
+                    <h2>お問い合わせ</h2>
+                    <p>お仕事のご依頼やご相談など、お気軽にご連絡ください。</p>
+                </div>
+                <a class = "detail" href="example.com">フォームを送信する →</a>
+            </article>
+
+        </section>
+
+    </main>
+    <footer><p class = "copy-right"><small>&copy; 2026 Shioya Haruto. 
+        All rights reserved.</small></p></footer>
+    <script src="main.js" defer></script>
+</body>
+</html>
